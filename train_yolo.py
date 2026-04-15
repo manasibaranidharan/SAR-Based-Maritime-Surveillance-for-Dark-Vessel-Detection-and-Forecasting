@@ -6,7 +6,7 @@ model = YOLO("yolov8n.pt")
 # train
 model.train(
     data="data.yaml",
-    epochs=20,
+    epochs=100,
     imgsz=256,
     batch=8,
     name="sar_ship_detector"
