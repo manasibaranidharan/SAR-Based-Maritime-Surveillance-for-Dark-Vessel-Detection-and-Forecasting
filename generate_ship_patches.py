@@ -10,7 +10,7 @@ tiny_path = "Dataset/xview3/tiny_scenes"
 
 # output folder
 save_dir = "processed ai dataset/ships"
-os.makedirs(save_dir, exist_ok=True)                            
+os.makedirs(save_dir, exist_ok=True)                           
 
 # find first VV image
 image_path = None
